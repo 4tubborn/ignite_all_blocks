@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+            "equipment": {"mainhand": {"items": "brush"}}
+        }        
+      }
+    }
+  },
+  "rewards": {
+    "function": "ignite_all:use"
+  }
+}
