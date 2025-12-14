@@ -1,9 +1,9 @@
-# ignite_all_blocks
+# Ignite All Blocks
 A Minecraft datapack that allows flint and steel to ignite all blocks.
 * supported version: 1.21.6-1.21.8
 * develop in 1.21.8
 
-## dependencies
+## Dependencies
 ### Bookshelf
 Git Repository: https://github.com/mcbookshelf/bookshelf
 
