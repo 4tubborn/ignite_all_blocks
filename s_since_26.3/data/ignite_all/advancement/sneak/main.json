@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "all_of",
+          "terms": [
+            {
+              "type": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "mainhand": {
+                    "items": "recovery_compass",
+                    "predicates": {
+                      "custom_data": {"flint_and_steel":true}
+                    }
+                  }
+                }
+              }
+            },
+            "ignite_all:restore"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ignite_all:sneak/main"
+  }
+}

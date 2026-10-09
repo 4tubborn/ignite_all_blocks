@@ -9,5 +9,11 @@ tellraw @a [{text:"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\
         hover_event:{action:"show_text",value:{translate:"Calculate explosion power based on block hardness and blast resistance."}},\
         click_event:{action:"run_command",command:"function ignite_all:config/dynamic_power"},extra:\
     [{score:{name:"#dynamic_power",objective:"ignite_all.config"}},{text:"\n"},]},\
+    \
+    {translate:"==================\n",color:"gray",underlined:false},\
+    {translate:"[Clear Pack Data]",\
+        hover_event:{action:"show_text",value:{translate:"Clear data created by the Pack"}},\
+        click_event:{action:"run_command",command:"function ignite_all:_unload_"},extra:\
+    [{text:"\n"},]},\
 ]}\
 ]

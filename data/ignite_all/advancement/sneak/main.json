@@ -3,21 +3,26 @@
     "requirement": {
       "trigger": "minecraft:tick",
       "conditions": {
-        "player": {
-          "flags": {
-            "is_sneaking": true
+        "player": [
+          {
+            "condition": "reference",
+            "name": "ignite_all:restore"
           },
-          "equipment": {
-            "mainhand": {
-                "items": "recovery_compass",
-                "predicates": {
-                    "custom_data": {
-                    "flint_and_steel":true
-                    }
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": "recovery_compass",
+                  "predicates": {
+                    "custom_data": {"flint_and_steel":true}
+                  }
                 }
+              }
             }
           }
-        }
+        ]
       }
     }
   },

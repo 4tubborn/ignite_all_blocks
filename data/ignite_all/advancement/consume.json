@@ -6,14 +6,7 @@
         "item": {
           "items": "recovery_compass",
           "predicates": {
-            "custom_data": {
-              "flint_and_steel":true
-            }
-          }
-        },
-        "player": {
-          "flags": {
-            "is_sneaking": false
+            "custom_data": {"flint_and_steel":true}
           }
         }
       }
