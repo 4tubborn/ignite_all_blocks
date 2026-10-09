@@ -1,5 +1,8 @@
 advancement revoke @s only ignite_all:consume
 
+scoreboard players add @s ignite_all.cur_use 4
+
+execute unless score @s ignite_all.cooldown matches 0 run return fail
 #say 2
 
 execute unless function ignite_all:util/tnt_explodes_gamerule if score #follow_gamerule ignite_all.config matches 1 run return run function ignite_all:out/tnt_explodes_disabled

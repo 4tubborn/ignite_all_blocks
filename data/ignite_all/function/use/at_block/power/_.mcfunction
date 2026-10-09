@@ -8,7 +8,7 @@ function #bs.block:get_hardness
 execute store result score #hardness ignite_all.tmp run data get storage bs:out block.hardness 1000
 execute store result score #blast_resistance ignite_all.tmp run data get storage bs:out block.blast_resistance 1000
 
-execute if score #hardness ignite_all.tmp matches ..-1 run scoreboard players set #hardness ignite_all.tmp 0
+execute if score #hardness ignite_all.tmp matches ..-1 run scoreboard players set #hardness ignite_all.tmp 1048576
 
 scoreboard players operation #power ignite_all.tmp = #base_power ignite_all.config
 scoreboard players operation #hardness ignite_all.tmp *= #hardness_weight ignite_all.config

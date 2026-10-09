@@ -1,0 +1,1 @@
+execute as @a run function ignite_all:tick/_

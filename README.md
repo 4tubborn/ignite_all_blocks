@@ -25,6 +25,10 @@ Sneak to use flint and steel normally.
 
 [Watch Video on Bilibili](https://www.bilibili.com/video/BV1mjmwBKEs3/?share_source=copy_web&vd_source=c9cd315de687845cb7a2d835d3200b37)
 
+## Acknowledgements
+
+* [Right-click detection](https://cr-019.github.io/datapack-index/feature/archive/202601/f/content.html#%E5%8F%B3%E9%94%AE%E6%A3%80%E6%B5%8B-%E5%87%8F%E5%8D%8A%E6%B3%95).
+
 ## Known Issues
 
 * Doors, beds, pistons may break when ignited and Ignited TNT only retains one half of the block.

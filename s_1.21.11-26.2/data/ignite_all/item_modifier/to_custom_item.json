@@ -1,12 +1,12 @@
 {
-    "type": "sequence",
+    "function": "sequence",
     "functions": [
         {
-            "type": "set_item",
+            "function": "set_item",
             "item": "recovery_compass"
         },
         {
-            "type": "set_components",
+            "function": "set_components",
             "components": {
                 "max_stack_size": 1,
                 "max_damage": 64,

@@ -21,6 +21,12 @@
         "max_format": 88
       },
       {
+        "directory": "s_1.21.11-26.2",
+        "formats": [94,107],
+        "min_format": 94,
+        "max_format": 107
+      },
+      {
         "directory": "s_26.2",
         "formats": [107,108],
         "min_format": 107,
