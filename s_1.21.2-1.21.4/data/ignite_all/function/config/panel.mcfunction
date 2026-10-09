@@ -1,4 +1,4 @@
-tellraw @a [{"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"},\
+tellraw @s [{"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"},\
 {"translate":"Ignite All Config","color":"gold","bold":true,"italic":true},{"text":"\n","color":"aqua","underlined":true,"extra":[\
     {"translate":"[Dynamic Explosion Power]: ",\
         "hoverEvent":{"action":"show_text","contents":{"translate":"Calculate explosion power based on block hardness and blast resistance."}},\

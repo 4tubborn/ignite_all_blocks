@@ -6,14 +6,20 @@ You can ignite nearly all blocks!
 
 ## Features
 
-Ignite grass block, dirt, stone, ores, planks, torches, even flowers and grass!
+Ignite almost anything: grass blocks, dirt, stone, ores, planks, torches, flowers, grass, and more!
 
-You can sneak so flint and steel can be used normally.
+Sneak to use flint and steel normally.
 
 ## Dependencies
 
 * (Required) [Bookshelf View](https://modrinth.com/project/rkt9Av0Z)
 * (Required) [Bookshelf Block](https://modrinth.com/project/JTQNFXZm)
+
+## Tips
+
+* You can also hold `Ctrl` + `Shift` to ignite blocks.
+* **Configuration:** Run `/function ignite_all:config/panel` to open the configuration panel in chat.
+* **Uninstallation:** Run `/function ignite_all:_unload__` to clear the datapack's data before removing it.
 
 ## Demo
 
@@ -21,5 +27,4 @@ You can sneak so flint and steel can be used normally.
 
 ## Known Issues
 
-* Doors, beds, pistons may broken accidentally when iginting.
-* Blocks with GUI cannot be ignited.
+* Doors, beds, pistons may break when ignited and Ignited TNT only retains one half of the block.
