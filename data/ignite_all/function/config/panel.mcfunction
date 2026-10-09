@@ -3,12 +3,17 @@ tellraw @s [{text:"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\
     {translate:"[Follow Gamerule]: ",\
         hover_event:{action:"show_text",value:{translate:"Make Ignite All TNT follow the TNT explodes gamerule."}},\
         click_event:{action:"run_command",command:"function ignite_all:config/follow_gamerule"},extra:\
-    [{score:{name:"#follow_gamerule",objective:"ignite_all.config"}},{text:"\n"}]},\
+    [{score:{name:"#follow_gamerule",objective:ignite_all.config}},{text:"\n"}]},\
     \
     {translate:"[Dynamic Explosion Power]: ",\
         hover_event:{action:"show_text",value:{translate:"Calculate explosion power based on block hardness and blast resistance."}},\
         click_event:{action:"run_command",command:"function ignite_all:config/dynamic_power"},extra:\
-    [{score:{name:"#dynamic_power",objective:"ignite_all.config"}},{text:"\n"},]},\
+    [{score:{name:"#dynamic_power",objective:ignite_all.config}},{text:"\n"},]},\
+    \
+    {translate:"[Dynamic Fuse Time]: ",\
+        hover_event:{"action":"show_text",value:{translate:"Calculate fuse time based on block hardness."}},\
+        click_event:{"action":"run_command",command:"function ignite_all:config/dynamic_fuse"},"extra":\
+    [{score:{name:"#dynamic_fuse",objective:ignite_all.config}},{text:"\n"}]},\
     \
     {translate:"==================\n",color:"gray",underlined:false},\
     {translate:"[Clear Pack Data]",\

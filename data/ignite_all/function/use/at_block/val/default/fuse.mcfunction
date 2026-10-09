@@ -1,0 +1,1 @@
+data modify storage ignite_all:re use.tnt.fuse set value 80s

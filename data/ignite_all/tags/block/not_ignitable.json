@@ -9,7 +9,13 @@
         "repeating_command_block",
         "structure_block",
         "structure_void",
-        "test_block",
-        "test_instance_block"
+        {
+            "id": "test_block",
+            "required": false
+        },
+        {
+            "id": "test_instance_block",
+            "required": false
+        }
     ]
 }

@@ -5,6 +5,11 @@ tellraw @s [{"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\
         "clickEvent":{"action":"run_command","value":"/function ignite_all:config/dynamic_power"},"extra":\
     [{"score":{"name":"#dynamic_power","objective":"ignite_all.config"}},{"text":"\n"}]},\
     \
+    {"translate":"[Dynamic Fuse Time]: ",\
+        "hoverEvent":{"action":"show_text","contents":{"translate":"Calculate fuse time based on block hardness."}},\
+        "clickEvent":{"action":"run_command","value":"/function ignite_all:config/dynamic_fuse"},"extra":\
+    [{"score":{"name":"#dynamic_fuse","objective":"ignite_all.config"}},{"text":"\n"}]},\
+    \
     {"translate":"==================\n","color":"gray","underlined":false},\
     {"translate":"[Clear Pack Data]",\
         "hoverEvent":{"action":"show_text","contents":{"translate":"Clear data created by the Pack"}},\

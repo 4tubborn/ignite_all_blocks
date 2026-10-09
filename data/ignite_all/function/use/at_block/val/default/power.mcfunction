@@ -1,0 +1,1 @@
+data modify storage ignite_all:re use.tnt.explosion_power set value 4.0f
