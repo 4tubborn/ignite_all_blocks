@@ -1,5 +1,6 @@
 scoreboard players set @s ignite_all.cooldown 4
 playsound entity.tnt.primed block
+function ignite_all:item/swing
 
 execute as @s[gamemode=creative] run return fail
 

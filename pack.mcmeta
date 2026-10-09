@@ -27,6 +27,12 @@
         "max_format": 107
       },
       {
+        "directory": "s_since_26.1",
+        "formats": [101,114514],
+        "min_format": 101,
+        "max_format": 114514
+      },
+      {
         "directory": "s_26.2",
         "formats": [107,108],
         "min_format": 107,

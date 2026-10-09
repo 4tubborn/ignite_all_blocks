@@ -19,4 +19,4 @@ setblock ~ ~ ~ air
 function ignite_all:use/at_block/motion/_
 
 execute positioned ~0.5 ~ ~0.5 run function ignite_all:use/at_block/summon_tnt with storage ignite_all:re use
-function ignite_all:item/set_damage
+function ignite_all:item/update
