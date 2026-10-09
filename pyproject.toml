@@ -1,0 +1,19 @@
+[project]
+name = "ignite-all"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "4tubborn", email = "highocean106@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "beet>=0.119.1",
+]
+
+[project.scripts]
+ignite-all = "ignite_all:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"

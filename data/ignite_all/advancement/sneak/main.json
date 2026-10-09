@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "flags": {
+            "is_sneaking": true
+          },
+          "equipment": {
+            "mainhand": {
+                "items": "recovery_compass",
+                "predicates": {
+                    "custom_data": {
+                    "flint_and_steel":true
+                    }
+                }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ignite_all:sneak/main"
+  }
+}

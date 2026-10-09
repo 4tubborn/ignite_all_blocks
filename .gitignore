@@ -1,0 +1,16 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+*.zip
+/.beet_cache/
+/build/
+**/__pycache__/
+/.vscode/
+/spyglass.json

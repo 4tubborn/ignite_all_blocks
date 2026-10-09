@@ -1,0 +1,1 @@
+title @s actionbar {"translate":"block.minecraft.tnt.disabled"}

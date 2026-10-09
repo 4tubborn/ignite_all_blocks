@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "": {
+            "trigger": "tick"
+        }
+    },
+    "rewards": {
+        "function": "ignite_all:tick/_"
+    }
+}

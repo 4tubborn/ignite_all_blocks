@@ -1,0 +1,18 @@
+{
+  "author": "4tubborn",
+  "description": "Ignite all blocks as TNTs.",
+  "data_pack": {
+    "zipped": true,
+    "name": "Ignite All {{ version }}",
+    "load": ["."]
+  },
+  "pipeline": [
+    "beet.contrib.minify_function",
+    "beet.contrib.minify_json",
+    "beet.contrib.render"
+  ],
+  "meta": {
+    "version": "v1.2.0"
+  },
+  "output": "build"
+}

@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "recovery_compass",
+          "predicates": {
+            "custom_data": {
+              "flint_and_steel":true
+            }
+          }
+        },
+        "player": {
+          "flags": {
+            "is_sneaking": false
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ignite_all:use/_"
+  }
+}

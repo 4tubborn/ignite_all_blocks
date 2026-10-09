@@ -1,0 +1,1 @@
+return run attribute @s block_interaction_range get 1000

@@ -1,0 +1,23 @@
+{
+    "function": "sequence",
+    "functions": [
+        {
+            "function": "set_item",
+            "item": "recovery_compass"
+        },
+        {
+            "function": "set_components",
+            "components": {
+                "max_stack_size": 1,
+                "max_damage": 64,
+                "item_name": {"translate":"item.minecraft.flint_and_steel"},
+                "item_model": "flint_and_steel",
+                "rarity": "common",
+                "custom_data": {"flint_and_steel":true},
+                "consumable": {
+                    "consume_seconds":2100000000,"animation":"none","sound":{"sound_id":"item.flintandsteel.use"},"has_consume_particles":false
+                }
+            }
+        }
+    ]
+}
