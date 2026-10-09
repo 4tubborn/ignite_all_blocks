@@ -25,3 +25,5 @@ scoreboard players set #base_power ignite_all.config 500
 scoreboard players set #fuse_mul ignite_all.config 20
 #add,1e3
 scoreboard players set #base_fuse ignite_all.config 5000
+#clamp,1e3
+scoreboard players set #max_fuse ignite_all.config 240000

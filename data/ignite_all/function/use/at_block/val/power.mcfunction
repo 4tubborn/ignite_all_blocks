@@ -2,7 +2,7 @@ execute if score #dynamic_power ignite_all.config matches 0 run return run funct
 
 function #bs.block:get_blast_resistance
 execute store result score #blast_resistance ignite_all.tmp run data get storage bs:out block.blast_resistance 1000
-
+#power = base + k1 * hardness + resistance / k2
 scoreboard players operation #power ignite_all.tmp = #base_power ignite_all.config
 scoreboard players operation #hardness ignite_all.tmp *= #hardness_weight ignite_all.config
 scoreboard players operation #power ignite_all.tmp += #hardness ignite_all.tmp
