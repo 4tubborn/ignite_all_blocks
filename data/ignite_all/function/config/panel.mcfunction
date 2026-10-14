@@ -17,7 +17,7 @@ tellraw @s [{text:"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\
     \
     {translate:"==================\n",color:"gray",underlined:false},\
     {translate:"[Clear Pack Data]",\
-        hover_event:{action:"show_text",value:{translate:"Clear data created by the Pack"}},\
+        hover_event:{action:"show_text",value:{translate:"Clear data created by the Pack."}},\
         click_event:{action:"run_command",command:"function ignite_all:_unload_"},extra:\
     [{text:"\n"},]},\
 ]}\

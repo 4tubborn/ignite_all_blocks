@@ -19,7 +19,7 @@ Sneak to use flint and steel normally.
 
 * You can also hold `Ctrl` + `Shift` to ignite blocks.
 * **Configuration:** Run `/function ignite_all:config/panel` to open the configuration panel in chat.
-* **Uninstallation:** Run `/function ignite_all:_unload__` to clear the datapack's data before removing it.
+* **Uninstallation:** Run `/function ignite_all:_unload_` to clear the datapack's data before removing it.
 
 ## Demo
 

@@ -12,7 +12,7 @@ tellraw @s [{"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\
     \
     {"translate":"==================\n","color":"gray","underlined":false},\
     {"translate":"[Clear Pack Data]",\
-        "hoverEvent":{"action":"show_text","contents":{"translate":"Clear data created by the Pack"}},\
+        "hoverEvent":{"action":"show_text","contents":{"translate":"Clear data created by the Pack."}},\
         "clickEvent":{"action":"run_command","value":"/function ignite_all:_unload_"},"extra":\
     [{"text":"\n"}]}\
 ]}\

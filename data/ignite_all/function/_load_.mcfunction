@@ -5,7 +5,7 @@ scoreboard objectives add ignite_all.cur_use dummy
 scoreboard players set #sucess ignite_all.tmp 0
 #1c595-0-00-0-3f000000000
 summon marker 0.0 0.0 0.0 {Tags:["ignite_all.marker"],UUID:[I;116117,0,1008,0]}
-forceload add 0 0
+forceload add -1 1
 
 execute as @a unless score @s ignite_all.cooldown matches -2147483648..2147483647 run scoreboard players set @s ignite_all.cooldown 0
 

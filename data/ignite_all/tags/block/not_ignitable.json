@@ -3,6 +3,7 @@
         "bedrock",
         "end_portal",
         "nether_portal",
+        "end_gateway",
         "barrier",
         "command_block",
         "chain_command_block",
